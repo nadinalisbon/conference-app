@@ -4,6 +4,8 @@
     "author": "nadinalisbon",
     "bugs": "https://github.com/nadinalisbon/conference-app/issues",
     "dependencies": {
+        "dotenv": "^8.2.0",
+        "jsforce": "^1.9.3",
         "lwc-services": "^1.3.9"
     },
     "devDependencies": {
