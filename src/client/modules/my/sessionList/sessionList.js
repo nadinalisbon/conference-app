@@ -15,10 +15,10 @@ export default class SessionList extends LightningElement {
     }
 
     handleSessionClick(event) {
-      const index = event.currentTarget.dataset.index;
-      const navigateEvent = new CustomEvent('navigate', {
-        detail: this.sessions[index].id
-      });
-      this.dispatchEvent(navigateEvent);
+        const index = event.currentTarget.dataset.index;
+        const navigateEvent = new CustomEvent('navigate', {
+            detail: this.sessions[index].id
+        });
+        this.dispatchEvent(navigateEvent);
     }
 }
